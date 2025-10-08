@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    /* background-color: #000000; */
+}
+#nav {
+    width: 100%;
+    height: 50px;
+    background-color: #1e1e1e8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: rgba(255, 255, 255, 0.79);
+    position: fixed;
+    top: 0;
+}
+#nav h4 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.sec {
+    width: 100%;
+    height: 94%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: rgba(255, 255, 255, 0.79);
+}
+.sec h1 {
+    font-size: 56px;
+    padding-bottom: 10px;
+}
+.sec h5 {
+    font-size: 26px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.79);
+    margin-bottom: 15px;
+}
+#btnlink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.bu1 {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: royalblue;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+}
+.bu2 {
+    font-size: 18px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid royalblue;
+    border-radius: 50px;
+    color: royalblue;
+    font-weight: 500;
+}
+#section1 {
+    padding-top: 40px;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 15px 0;
+}
+#section1 h1,h5{
+    color: black;
+}
+#section2 {
+    padding-top: 40px;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 15px 0;
+}
+#section2 h1,h5{
+    color: black;
+}
+.boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 48.5%;
+    height: 620px;
+    background-color: pink;
+    margin: 10px;
+    text-align: center;
+    padding: 40px 0;
+}
+#box1 {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/icloud-plus/promo_icloud_plus__d4639vh3tz2a_medium.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /* text-align: center; */
+}
+#box2 {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-games/promo_apple_games__bfy0db0xi602_medium.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#box3 {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#box4 {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air_avail__6i02t7nujr62_medium.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#box5 {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#box6 {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.box h1 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.box h5 {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+.btnbox button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: royalblue;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+}
+.unique {
+    color: white;
+}

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: #222;
+}
+#box {
+    width: 100%;
+    height: 1000px;
+    background-color: #222;
+    /* position: relative; */
+}
+#innerbox {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: sticky;
+    top: 20%;
+    /* right: 10%; */
+    left: 10%;
+}
+#box2 {
+    width: 100%;
+    height: 2000px;
+    background-color: #555;
+}
+#box3 {
+    width: 100%;
+    height: 900px;
+    background-color: #ff5f5f;
+}
