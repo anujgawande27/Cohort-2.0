@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+@mixin fontfamily() {
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    width: 100%;
+    // height: 100px;
+    background-color: green;
+
+    h4 {
+        font-size: 30px;
+        @include fontfamily();
+    }
+    p {
+        font-size: 20px;
+        @include fontfamily();
+    }
+    div {
+        width: 100%;
+        @include fontfamily();
+        background-color: #fff;
+    }
+}

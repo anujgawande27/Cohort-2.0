@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 0.8fr 0.8fr;
+  grid-template-rows: 1.6fr 1fr;
+  grid-template-areas: "one two two two" "one three four five";
+  grid-gap: 10px;
+}
+main aside {
+  background-image: url(https://i.pinimg.com/736x/64/fa/11/64fa119c4f6d984091b394479c99a2a0.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-area: one;
+}
+main header {
+  background-image: url(https://i.pinimg.com/736x/78/74/3a/78743ae8e05bc6e1d74069e9dc438b06.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-area: two;
+}
+main #card1 {
+  background-image: url(https://i.pinimg.com/736x/f9/3f/33/f93f33c831f3e863910b280bacf36d13.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-area: three;
+}
+main #card2 {
+  background-image: url(https://i.pinimg.com/736x/da/13/a4/da13a4a244bb3f41d3c3fdb9221921d2.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-area: four;
+}
+main #card3 {
+  background-image: url(https://i.pinimg.com/1200x/c0/7c/24/c07c246d58a64caeafebc4b98099da89.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-area: five;
+}
+main .box {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(transparent, transparent, transparent, black);
+}/*# sourceMappingURL=style.css.map */
