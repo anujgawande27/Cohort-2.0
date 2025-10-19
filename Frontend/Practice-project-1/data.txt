@@ -1,5 +1,0 @@
-<img src="https://i.pinimg.com/474x/3e/cc/54/3ecc545b3e233c0a82740923155d77c0.jpg" alt=""></div>
-            <div class="box" id="box2"><img src="https://i.pinimg.com/736x/a1/4b/8b/a14b8be1e6a35ad997a73449ede63fe4.jpg" alt=""></div>
-            <div class="box" id="box3"><img src="https://i.pinimg.com/736x/a3/3f/65/a33f65d27f79957790a4be22b6ab57ef.jpg" alt=""></div>
-            <div class="box" id="box4"><img src="https://i.pinimg.com/736x/04/98/99/049899563b412878e4a761fd4c180fa7.jpg" alt=""></div>
-            <div class="box" id="box5"><img src="" alt=""></div>

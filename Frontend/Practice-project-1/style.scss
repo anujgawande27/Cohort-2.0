@@ -80,6 +80,7 @@ main {
             height: 25vh;
             // border: 2px solid gold;
             border-radius: 15px;
+            cursor: pointer;
         }
         #box1 {
             background-image: url(https://i.pinimg.com/474x/3e/cc/54/3ecc545b3e233c0a82740923155d77c0.jpg);
@@ -87,6 +88,11 @@ main {
             background-position: center;
             rotate: -10deg;
             transform: translate(20%, 5%);
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+        }
+        #box1:hover {
+            transform: translate(2%);
+            rotate: 10deg;
         }
         #box2 {
             background-image: url(https://i.pinimg.com/736x/a1/4b/8b/a14b8be1e6a35ad997a73449ede63fe4.jpg);
@@ -94,6 +100,11 @@ main {
             background-position: center;
             rotate: 12deg;
             transform: translate(12%, -10%);
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+        }
+        #box2:hover {
+            transform: translate(2%);
+            rotate: -10deg;
         }
         #box3 {
             background-image: url(https://i.pinimg.com/736x/a3/3f/65/a33f65d27f79957790a4be22b6ab57ef.jpg);
@@ -101,6 +112,11 @@ main {
             background-position: center;
             rotate: -14deg;
             transform: translate(12%, 0);
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+        }
+        #box3:hover {
+            transform: translate(2%);
+            rotate: 10deg;
         }
         #box4 {
             background-image: url(https://i.pinimg.com/736x/04/98/99/049899563b412878e4a761fd4c180fa7.jpg);
